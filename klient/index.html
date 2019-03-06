@@ -8,10 +8,26 @@
 </head>
 <body>
     <h2>Glasanje</h2>
-    <button onclick="pratiGlas(0)">Glasaj</button>
-    <button onclick="pratiGlas(1)">Glasaj</button>
-    <button onclick="pratiGlas(2)">Glasaj</button>
-    <button onclick="pratiGlas(3)">Glasaj</button>
+    <div>
+        <h3>Kandidat 1</h3>
+        <p>Broj na glasovi: <span id="k1">0</span></p>
+        <p><button onclick="pratiGlas(0)">Glasaj</button></p>
+    </div>
+    <div>
+            <h3>Kandidat 2</h3>
+            <p>Broj na glasovi: <span id="k2">0</span></p>
+            <p><button onclick="pratiGlas(1)">Glasaj</button></p>
+        </div>
+        <div>
+                <h3>Kandidat 3</h3>
+                <p>Broj na glasovi: <span id="k3"></span> </p>
+                <p><button onclick="pratiGlas(2)">Glasaj</button></p>
+            </div>
+            <div>
+                    <h3>Kandidat 4</h3>
+                    <p>Broj na glasovi: <span id="k4">0</span></p>
+                    <p><button onclick="pratiGlas(3)">Glasaj</button></p>
+                </div>
         <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
     <script src="script.js"></script>
 </body>
